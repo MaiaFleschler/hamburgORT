@@ -1,0 +1,152 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Happy Monkey", system-ui;
+}
+
+body {
+    background-color: #eeeeee;  
+}
+
+header {
+    width: 100%;
+}
+.logo {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 50px;
+    color: rgb(245, 241, 23);
+    padding: 30px;
+    text-align: center;
+    font-family: "Rubik Scribble", system-ui;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+
+.logo a img{
+    height: 50px;
+    width: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.food-list{
+    width: 70%;
+}
+.images{
+    width: 30%;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.991);
+    margin: 40px;
+    padding: 45px;
+    box-shadow: -10px 11px 43px -7px rgba(0,0,0,0.75);
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.flex-container div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flex-container div p:first-child::first-letter{
+    font-weight: 600;
+}
+
+.flex-container h2::first-letter {
+    color: rgb(197, 197, 0);
+    text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000, 1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+}
+
+section h2 {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.burger{
+    width: 100%;
+}
+
+.scrollUp{
+    position: sticky;
+    bottom: 20px;
+    right: 30px;
+    left: 20px;
+    z-index: 1;
+    cursor: pointer;
+}
+.scrollUp img {
+    width: 50px;
+}
+
+.order {
+    background-color: #f5f117;
+    position: fixed;
+    top: 200px;
+    right: 0;
+    z-index: 2;
+    cursor: pointer;
+    padding: 10px;
+    width: 100px;
+    border-radius: 15px 0 0 15px;
+    box-shadow: 5px 5px 10px rgb(71, 71, 71, 0.5);
+}
+.order h2 {
+    color: #000000;
+}
+.order a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    border-top: solid 2px white;
+}
+
+footer p {
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
