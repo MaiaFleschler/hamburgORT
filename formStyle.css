@@ -1,0 +1,107 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Happy Monkey", system-ui;
+}
+
+#titulo {
+    text-align: center;
+    margin: 20px;
+}
+
+header {
+    width: 100%;
+}
+.logo {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 50px;
+    color: rgb(245, 241, 23);
+    padding: 30px;
+    text-align: center;
+    font-family: "Rubik Scribble", system-ui;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+
+.logo a img{
+    height: 50px;
+    width: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.991);
+    margin: 40px;
+    padding: 45px;
+    box-shadow: -10px 11px 43px -7px rgba(0,0,0,0.75);
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="tel"],
+form input[type="number"],
+form input[type="date"],
+form input[type="time"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #f5f117;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #e2e20e;
+}
+
+/* Alineación del formulario */
+form {
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 40px;
+}
